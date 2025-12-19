@@ -1,6 +1,6 @@
 class candidate:
 
-    region = "서울"
+    region = "창원"
 
     def __init__(self, name, gender, age, number, rating):
 
@@ -57,3 +57,4 @@ LL = LinkedList()
 LL.node_insert("우",LL.head)
 LL.node_insert("주",LL.head.next)
 LL.visit_all()
+
